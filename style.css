@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+}
+header {
+    margin-top: 55px;
+    text-align: center;
+}
+
+header h1 {
+    font-weight: 300;
+    font-size: 3em;
+}
+
+header h2 {
+    font-size: 1.6em;
+    font-weight: 200;
+}
+
+.emoji {
+    max-width: 100%;
+    height: auto;
+}
+
+.links {
+    font-size: 2em;
+    color: #495057;
+    margin: 10px 6px;
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+main {
+    margin: 1% 25%;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+hr {
+    width: 75px;
+    height: 2px;
+    background-color: black;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.stack {
+    font-size: 2em;
+    color: #495057;
+    margin: 0px 6px;
+}
